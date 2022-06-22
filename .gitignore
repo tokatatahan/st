@@ -1,0 +1,6 @@
+patches/
+st
+config.h
+*.diff
+*.o
+*.orig
