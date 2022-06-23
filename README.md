@@ -6,6 +6,7 @@
 - Anysize
 - Xresources
 - Scrollback ringbuffer
+- Boxdraw
 
 ## Other changes
 
