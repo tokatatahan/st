@@ -12,6 +12,7 @@
 - Changed key bindings for zooming in/out
 - Added key bindings for scrolling
 - Changed default color definitions
+- Changed the terminal name to "st"
 
 *Check the manual for key bindings.*
 
