@@ -7,6 +7,7 @@
 - Xresources
 - Scrollback ringbuffer
 - Boxdraw
+- Ligatures boxdraw
 
 ## Other changes
 
@@ -22,6 +23,7 @@
 - fontconfig
 - libX11
 - libXft
+- harfbuzz
 
 ## Installation
 
