@@ -27,11 +27,13 @@
 
 ## Installation
 
-`$ git clone https://github.com/tokatatahan/st`
+```
+$ git clone https://github.com/tokatatahan/st
 
-`$ cd st`
+$ cd st
 
-`# make clean install`
+# make clean install
+```
 
 ## Uninstallation
 
