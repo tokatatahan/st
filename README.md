@@ -27,17 +27,17 @@
 
 ## Installation
 
-```
-$ git clone https://github.com/tokatatahan/st
-
-$ cd st
-
-# make clean install
+```shell
+git clone https://github.com/tokatatahan/st
+cd st
+sudo make clean install
 ```
 
 ## Uninstallation
 
-`# make uninstall`
+```shell
+sudo make uninstall
+```
 
 ## Configuration
 
@@ -47,6 +47,8 @@ file will be a copy of `config.def.h` and it will be owned by the root user. If
 you mess something up, or apply a new patch that changes `config.def.h`, you
 should run the following command:
 
-`$ cp config.def.h config.h`
+```shell
+cp config.def.h config.h
+```
 
 **This will overwrite the existing `config.h`!**
