@@ -8,6 +8,7 @@
 - Scrollback ringbuffer
 - Boxdraw
 - Ligatures boxdraw
+- Bold is not bright
 
 ## Other changes
 
