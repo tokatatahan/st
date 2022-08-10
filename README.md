@@ -33,15 +33,15 @@
 ## Installation
 
 ```shell
-$ git clone https://github.com/tokatatahan/st
-$ cd st
-# make clean install
+git clone https://github.com/tokatatahan/st
+cd st
+sudo make clean install
 ```
 
 ## Uninstallation
 
 ```shell
-# make uninstall
+sudo make uninstall
 ```
 
 ## Configuration
@@ -53,7 +53,7 @@ you mess something up, or apply a new patch that changes `config.def.h`, you
 should run the following command:
 
 ```shell
-$ cp config.def.h config.h
+cp config.def.h config.h
 ```
 
 **This will overwrite the existing `config.h`!**
