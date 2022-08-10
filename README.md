@@ -9,6 +9,8 @@
 - Boxdraw
 - Ligatures boxdraw
 - Bold is not bright
+- Desktop entry
+- Netwmicon
 
 ## Other changes
 
@@ -24,19 +26,22 @@
 - libX11
 - libXft
 - harfbuzz
+- libgd
+
+*Make sure that appropriate header files are installed too.*
 
 ## Installation
 
 ```shell
-git clone https://github.com/tokatatahan/st
-cd st
-sudo make clean install
+$ git clone https://github.com/tokatatahan/st
+$ cd st
+# make clean install
 ```
 
 ## Uninstallation
 
 ```shell
-sudo make uninstall
+# make uninstall
 ```
 
 ## Configuration
@@ -48,7 +53,7 @@ you mess something up, or apply a new patch that changes `config.def.h`, you
 should run the following command:
 
 ```shell
-cp config.def.h config.h
+$ cp config.def.h config.h
 ```
 
 **This will overwrite the existing `config.h`!**
